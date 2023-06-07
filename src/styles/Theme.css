@@ -1,0 +1,62 @@
+/* Typography */
+
+.custom-block-title {
+  @apply text-3xl font-bold tracking-normal text-white;
+}
+.custom-block-big-title {
+  @apply text-4xl font-bold tracking-normal text-white xl:text-5xl;
+}
+.custom-block-subtitle {
+  @apply text-xs font-bold uppercase  tracking-wider text-customSecondary lg:text-base;
+}
+.custom-content-title {
+  @apply text-lg font-bold tracking-normal text-white;
+}
+.custom-content-text-white {
+  @apply text-base leading-relaxed text-white;
+}
+.custom-content-text-gray {
+  @apply text-base text-gray-400;
+}
+
+/* Backgrounds */
+
+.custom-bg-dark1 {
+  @apply bg-customDarkBg1  fill-customDarkBg1;
+}
+.custom-bg-dark2 {
+  @apply bg-customDarkBg2  fill-customDarkBg2;
+}
+.custom-bg-dark3 {
+  @apply bg-customDarkBg3  fill-customDarkBg3;
+}
+body,
+html {
+  @apply bg-customDarkBg2;
+}
+
+/* Borders */
+
+.custom-border-gray {
+  @apply border border-solid border-[rgb(255,255,255,0.15)];
+}
+.custom-border-gray-darker {
+  @apply border border-solid border-[rgb(255,255,255,0.07)];
+}
+
+/* Buttons */
+
+.custom-button-colored {
+  @apply flex cursor-pointer items-center justify-center rounded-lg bg-customPrimary font-bold text-white transition hover:bg-[#0092ec];
+}
+
+/* Navbar */
+
+.navbar-link {
+  @apply ml-4 mr-4 h-full  cursor-pointer pt-2 text-2xl   font-normal leading-6 text-white transition duration-300 hover:scale-110 lg:text-base lg:font-medium 2xl:ml-6 2xl:mr-6;
+}
+
+/* Preventing FOUC */
+@font-face {
+  font-display: var(--fontsource-Inter-font-display, optional);
+}
