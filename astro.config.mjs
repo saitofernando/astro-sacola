@@ -4,7 +4,7 @@ import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
   integrations: [react(), tailwind({})],
-  output: "static",
-  site: "https://conservaregrafica.com.br",
-  base: "/",
+  site: "https://conservaregrafica.com.br/",
+
+  base: "sacolas-personalizadas",
 });
