@@ -3,6 +3,12 @@ import { motion } from "framer-motion";
 import conservarePredio from "../assets/images/conservare-predio.webp";
 
 export const About = () => {
+  
+  const dataAtual = new Date();
+  const anoAtual = dataAtual.getFullYear();
+  const anoInicio = 2015;
+  const dataConservare =  anoAtual - anoInicio;
+
   return (
     <section
       className="flex w-full flex-col items-center justify-center bg-customDarkBg1 lg:mb-16"
@@ -31,15 +37,13 @@ export const About = () => {
         <div className=" mx-auto flex  flex-col justify-center bg-customDarkBg1 pb-8 pt-12 md:w-4/5 lg:flex-row lg:pb-20 lg:pt-24 xl:w-[1050px] 2xl:w-[1150px]">
           <div className="lg:mx-unset mx-auto flex w-3/4 flex-col lg:w-1/2">
             <span className="custom-block-subtitle">
-              IMPRESSÕES QUE PRESERVAM SUA MARCA.
+              HÁ {dataConservare} ANOS NO MERCADO GRÁFICO.
             </span>
             <h2 className="custom-block-big-title mb-8 mt-10 text-4xl lg:text-5xl">
-              A Conservare Gráfica
+              Sobre a empresa
             </h2>
             <p className="mb-6 leading-relaxed text-customGrayText lg:mb-12 lg:text-lg">
-              A Gráfica Conservare é a escolha certa para que suas impressões
-              sejam de alta qualidade e precisão. Somos uma empresa de Campo
-              Grande - MS desde 2015 no mercado gráfico.
+            A <strong> Conservare Gráfica</strong> está no mercado desde 2015, evoluindo de forma ágil buscando aperfeiçoar cada detalhe de todos os setores. Fornecendo assim os melhores resultados de impressão para todos os clientes. Seja <strong>impressão offset, digital, plotagem, brinde ou comunicação visual </strong> estamos preparados para preservar a sua marca em nossos impressos.
             </p>
             <a
               className="custom-button-colored mr-10 h-12 w-[210px] "

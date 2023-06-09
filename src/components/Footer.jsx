@@ -37,9 +37,7 @@ export const Footer = () => {
                 <ConservareLogo />
               </div>
               <p className="mb-10 mt-4 px-6 pt-6 text-center text-base leading-relaxed text-gray-400 lg:px-48 lg:text-lg ">
-                Não deixe sua comunicação visual ser um problema para sua
-                empresa. A Gráfica Conservare é a escolha certa para que suas
-                impressões sejam de alta qualidade e precisão.
+                Impressões que preservam sua marca.
               </p>
               <div className="mx-auto flex w-36 gap-2">
                 <a

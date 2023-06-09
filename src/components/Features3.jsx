@@ -28,7 +28,7 @@ export const Features3 = () => {
               <ul className="mb-6 text-white">
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Sacolas mais encorpadas e elegantes</span>
+                  <span>Sacolas mais elegantes</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
