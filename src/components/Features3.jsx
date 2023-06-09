@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import bagDuplex from "../assets/images/bags-duplex.png";
+import bagDuplex from "../assets/images/bags-duplex.webp";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 export const Features3 = () => {

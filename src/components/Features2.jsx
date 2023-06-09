@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import bagOffset from "../assets/images/bags-offset.png";
+import bagOffset from "../assets/images/bags-offset.webp";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 export const Features2 = () => (

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import bags from "../assets/images/bags-hero.png";
+import bags from "../assets/images/bags-hero.webp";
 import { WhatsappIcon } from "../assets/icons/WhatsappIcon";
 
 export const Hero = () => {

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import bagKraft from "../assets/images/bags-kraft.png";
+import bagKraft from "../assets/images/bags-kraft.webp";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 export const Features1 = () => {
