@@ -36,7 +36,22 @@ const { title } = Astro.props;
       content="#001F33"
     />
     <meta name="apple-mobile-web-app-status-bar-style" content="#001F33" />
-    <title>{title}</title>
+
+          <!-- Open Graph / Facebook -->
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://www.conservaregrafica.com.br/sacolas-personalizadas/">
+      <meta property="og:title" content="Sacolas de Papel Personalizadas">
+      <meta property="og:description" content="Aproveite agora a nossa promoção especial e adquira suas sacolas de papel personalizadas com até 4x sem juros no cartão de crédito!">
+      <meta property="og:image" content="./image-main.webp">
+
+      <!-- Twitter -->
+      <meta property="twitter:card" content="summary_large_image">
+      <meta property="twitter:url" content="https://www.conservaregrafica.com.br/sacolas-personalizadas/">
+      <meta property="twitter:title" content="Sacolas de Papel Personalizadas">
+      <meta property="twitter:description" content="Aproveite agora a nossa promoção especial e adquira suas sacolas de papel personalizadas com até 4x sem juros no cartão de crédito!">
+      <meta property="twitter:image" content="./../image-main.webp">
+      <title>{title}</title>
+
   </head>
   <body>
     <slot />
