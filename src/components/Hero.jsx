@@ -36,7 +36,7 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          <div className="mt-10 px-12 text-lg text-white sm:px-48 sm:text-base lg:text-xl xl:text-xl ">
+          <div className="mt-10 px-12 hidden sm:block text-lg text-white sm:px-48 sm:text-base lg:text-xl xl:text-xl ">
             Aproveite agora a nossa promoção especial e adquira suas sacolas de
             papel personalizadas com até 4x sem juros no cartão de crédito!
           </div>
