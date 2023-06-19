@@ -25,7 +25,7 @@ export const Features1 = () => {
                 clientes.
               </p>
               <ul className="mb-6 text-white">
-                <li className="mb-4 flex">
+                <li className="mb-4 flex  ">
                   <CheckArrowIcon />
                   <span>Opção econômica e bonita</span>
                 </li>

@@ -24,10 +24,10 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.05 }}
         >
-          <div className="px-8 text-4xl font-bold  text-white  sm:text-5xl  lg:text-6xl">
+          <div className="px-8 text-4xl  font-bold  text-white sm:text-5xl lg:text-6xl">
             <span>Sacolas de Papel Personalizadas</span>
           </div>
-          <div className="mt-2 px-8 text-lg font-bold tracking-wide text-white sm:mt-2 sm:px-20  sm:text-3xl  md:px-24 lg:px-24 lg:text-5xl xl:text-5xl">
+          <div className="mt-2 px-8 text-lg  font-bold tracking-wide text-white sm:mt-2 sm:px-20  sm:text-3xl  md:px-24 lg:px-24 lg:text-5xl xl:text-5xl">
             em até 4x sem juros.
           </div>
         </motion.div>
@@ -36,7 +36,7 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          <div className="mt-10 px-12 hidden sm:block text-lg text-white sm:px-48 sm:text-base lg:text-xl xl:text-xl ">
+          <div className="mt-10 hidden px-12 text-lg text-white sm:block sm:px-48 sm:text-base lg:text-xl xl:text-xl ">
             Aproveite agora a nossa promoção especial e adquira suas sacolas de
             papel personalizadas com até 4x sem juros no cartão de crédito!
           </div>

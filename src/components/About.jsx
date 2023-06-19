@@ -3,11 +3,10 @@ import { motion } from "framer-motion";
 import conservarePredio from "../assets/images/conservare-predio.webp";
 
 export const About = () => {
-  
   const dataAtual = new Date();
   const anoAtual = dataAtual.getFullYear();
   const anoInicio = 2015;
-  const dataConservare =  anoAtual - anoInicio;
+  const dataConservare = anoAtual - anoInicio;
 
   return (
     <section
@@ -43,7 +42,15 @@ export const About = () => {
               Sobre a empresa
             </h2>
             <p className="mb-6 leading-relaxed text-customGrayText lg:mb-12 lg:text-lg">
-            A <strong> Conservare Gráfica</strong> está no mercado desde 2015, evoluindo de forma ágil buscando aperfeiçoar cada detalhe de todos os setores. Fornecendo assim os melhores resultados de impressão para todos os clientes. Seja <strong>impressão offset, digital, plotagem, brinde ou comunicação visual </strong> estamos preparados para preservar a sua marca em nossos impressos.
+              A <strong> Conservare Gráfica</strong> está no mercado desde 2015,
+              evoluindo de forma ágil buscando aperfeiçoar cada detalhe de todos
+              os setores. Fornecendo assim os melhores resultados de impressão
+              para todos os clientes. Seja{" "}
+              <strong>
+                impressão offset, digital, plotagem, brinde ou comunicação
+                visual{" "}
+              </strong>{" "}
+              estamos preparados para preservar a sua marca em nossos impressos.
             </p>
             <a
               className="custom-button-colored mr-10 h-12 w-[210px] "
